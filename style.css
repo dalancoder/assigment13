@@ -1,0 +1,338 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border box;
+}
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    flex-wrap: :wrap;
+    
+}
+.logo{
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+.logo img{
+  width: 3rem;
+  height: 2.5rem;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:normal;
+    margin-left:8%;
+    margin-right: 8%;
+    padding: 25px;
+   
+    
+}
+.nav-bar-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    
+    
+}
+.items img{
+    width: 2.2rem;
+    cursor: pointer;
+}
+#kind{
+    height: 2rem;
+    background-color: rgb(201, 201, 201);
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+.inp{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border: none;
+    position: relative;
+    border-radius: 3px;
+           
+    
+   }
+input{
+    height: 2rem;
+    width: 200px;
+    background-color: rgb(201, 201, 201);
+    font-size: 0.6rem;
+    border:none;
+   
+    
+    
+}
+.inp img{
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 2;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tel-1{
+    font-weight: bold;
+}
+.support{
+    position: absolute;
+    bottom:-5px;
+    right:0;
+    font-size: 10px;
+}
+.category-1{
+    word-spacing: 30px;
+    cursor: pointer;
+}
+.category{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top:20px;
+    width: 100%;
+    gap:30px;
+    flex-wrap: wrap;
+    border-top: 2px solid gray;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+button{
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+    
+}
+.fa-solid {   
+    
+    margin:10px;
+    
+    color:red;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 50, 48, 1);
+    gap:20px;
+    padding-bottom: 30px;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+.section1-pri{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 2rem;
+    background-color: #D5DEE5;
+    font-size: 25px;
+    width: 600px;
+    height: 250px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    padding-left: 20px;
+    
+}
+.section1-pri img{
+    width: 220px;
+}
+.par1{
+    width: 50%;
+}
+.section1-sec{
+    background-color: #FFC868;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    margin-top: 2rem;
+}
+.section1-sec img{
+    width: 100%;
+    height: 100%;
+}
+.section1-sec p{
+    position: absolute;
+    top:5px;
+    right: 15px;
+    font-size: 0.8rem;
+
+}
+.section2{
+    background-color: #AE9F8D;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    gap:1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+}
+.section2-text{
+    position: absolute;
+    top:15px;
+    left:10px;
+    
+}
+.section2 h3{
+    font-weight: 400;
+}
+.section2-box{
+    width: 280px;
+    height: 280px;
+    background-color:#E4E2DF;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+    
+}
+.section2 img{
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 20px;
+}
+.section2 p{
+    opacity:0.5;
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+.section3{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    gap:1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.section3 h3{
+    position: absolute;
+    top:15px;
+    left:10px;
+    font-weight: 400;
+}
+.section3-box{
+    width: 280px;
+    height: 280px;
+    background-color:#E4E2DF;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+}
+.section3 img{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    bottom: 20px;
+    top:0;
+    border-radius: 10px;
+}
+.section3 p{
+    opacity:0.5;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    position: absolute;
+    bottom:-5px;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.footer-pri{
+    background-color: #AE9F8D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+span{
+    color:red;
+}
+.footer-pri-one{
+    width: 50%;
+    font-family: "Bellota", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.footer-pri-one p{
+    font-size: 1rem;
+}
+.footer-pri-two{
+    width: 100%;
+}
+.footer-pri-two input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid black;
+    background-color: #AE9F8D;
+    margin-bottom: 1rem;
+}
+.footer-pri button{
+    height: 1.5rem;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 0.7rem;
+    font-style: oblique;
+}
+.footer-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+}
+a{
+    font-size: 0.8rem;
+    color: black;
+}
